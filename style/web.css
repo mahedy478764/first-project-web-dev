@@ -6,6 +6,12 @@
     font-variation-settings:
       "wdth" 100;
   }
+
+
+  main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
 /* nav styel */
 nav{
     display: flex;
@@ -17,9 +23,7 @@ nav{
     font-weight: 800;
     font-size: 45px;
 }
-.rrr{
-    color: #FD6E0A;
-}
+
 nav ul{
     display: flex;
     align-items: center;
@@ -28,12 +32,11 @@ nav ul li{
     list-style: none;
     margin-right: 50px;
 }
+
+/* sheyar styel */
+
 .dark-2{
     color: #474747 ;
-}
-nav li a{
-    text-decoration: none;
-    font-size: 20px;
 }
 .bty-py{
     background-color: #FD6E0A;
@@ -44,6 +47,17 @@ nav li a{
     border-radius: 5px;
     border: none;
 }
+
+.rrr{
+    color: #FD6E0A;
+}
+
+/* digain */
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* benar */
 .benar-wel{
     font-size: 45px;
     font-weight: 600px;
@@ -54,10 +68,7 @@ nav li a{
     font-weight: bold;
     color: #181818;
 }
-.pic{
-    height: 676px;
-    width: 584px;
-}
+
 .benar{
     display: flex;
     justify-content: space-between;
@@ -67,4 +78,65 @@ nav li a{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+.pic{
+    height: 676px;
+    width: 584px;
+}
+/* about */
+.div-about{
+    background-color: #FFFFFF;
+    height: 306px;
+    width: 827px;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    text-align: center;
+    margin-top: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-1st{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-peragrap{
+    color: #757575;
+}
+.it-titel{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    /* margin-top: 2px; */
+}
+.it-discr{
+    color: #757575;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    
+}
+.skill-discr{
+    text-align: center;
+    padding: 0px 200px;
+}
+
+/* skill paceat */
+.skill-packet{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+ 
+    box-shadow: 0px 6px 50px 0px black;
 }
