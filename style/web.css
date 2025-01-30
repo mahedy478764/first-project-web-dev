@@ -203,3 +203,14 @@ footer{
 .footer-colum{
     width: 50%;
 }
+.section-social a{
+    margin-right: 30px;
+}
+.contact{
+    padding: 18px 150px 30px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #757575;
+    background-color: #fff;
+    border: 0;
+}
