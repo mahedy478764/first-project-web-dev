@@ -205,6 +205,7 @@ footer{
 }
 .section-social a{
     margin-right: 30px;
+    padding-top: 20px;
 }
 .contact{
     padding: 18px 150px 30px 30px;
@@ -213,4 +214,10 @@ footer{
     color: #757575;
     background-color: #fff;
     border: 0;
+}
+.section-titel{
+    text-align: center;
+}
+.section-discr{
+    text-align: center;
 }
